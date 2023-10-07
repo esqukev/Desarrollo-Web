@@ -1,0 +1,161 @@
+.header {
+    padding: 40px;
+    background-color:black;
+}
+
+.header-left {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0%;
+}
+
+.boton-header {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 600;
+}   
+
+.boton-header:hover {
+    padding-top: 2px;
+}
+
+.sesion {
+    padding: 8px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.sesion:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 1s;
+}
+
+.header-right {
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    border: none;
+    float: right;
+}
+
+.header-left:hover {
+
+    padding-top: 2px;
+} 
+
+
+.fondo1 {
+    background-color: rgb(238, 226, 211);
+    margin-top: 0;
+    padding-top: 0; 
+}
+
+
+.titulo1{
+    color: black;
+    text-shadow: 4px 4px rgba(207, 133, 215, 0.253);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.oferta{
+    color: black;
+    font-size: 17px;
+    font-weight: light;
+}
+
+.filas {
+    margin-top: 40px;
+    text-shadow: 4px 4px rgba(207, 133, 215, 0.253);
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.texto {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: light;
+}
+
+.boton {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.boton:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 1s;
+}
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    border: none;
+}
+
+.iconos-footer {
+    font-size: 8px;
+    border: none;
+    background-color: black;
+}
+
+i {
+    color: black;
+    font-size: 50px;
+    text-shadow: 4px 4px rgba(207, 133, 215, 0.456);
+}
+
+.linea{
+    display: inline-block;
+    position: relative;
+}
+
+.linea::after,.linea::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    margin-top: 34px;
+    height: 3px;
+    background-color: rgba(214, 112, 225, 0.99);
+    top: 0.6em;
+}
+
+.linea::after {
+    left: -180px;
+}
+
+.linea::before {
+    right: -180px;
+}
+
+
+
+
+
+
+
+
+
+
+

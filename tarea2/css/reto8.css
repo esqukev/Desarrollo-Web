@@ -1,0 +1,107 @@
+.header {
+    padding: 40px;
+    background-color:black;
+}
+
+.header-left {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0%;
+}
+
+.boton-header {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 600;
+}   
+
+.boton-header:hover {
+    padding-top: 2px;
+}
+
+.sesion {
+    padding: 8px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.sesion:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 1s;
+}
+
+.header-right {
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    border: none;
+    float: right;
+}
+
+.header-left:hover {
+
+    padding-top: 2px;
+} 
+
+.container-fluid2 {
+    padding-top: 250px;
+    padding-bottom: 315px;
+}
+
+.banner{
+    background-image: url("../imagenes/resta.jpg");
+    background-image: cover;
+    background-image: center;
+    background-color: #05050544;
+    background-blend-mode: screen;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+.titulo{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.351);
+    font-size: 50px;
+}
+
+.titulo2{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.351);
+    font-size: 15px;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    border: none;
+}
+
+.iconos-footer {
+    font-size: 8px;
+    border: none;
+    background-color: black;
+}
+
+i {
+    font-size: 50px;
+    color: white;
+}
+
+.botonicon {
+    text-decoration: none;
+    border: none;
+}

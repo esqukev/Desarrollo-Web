@@ -1,0 +1,97 @@
+.header {
+    padding: 40px;
+    background-color:black;
+}
+
+.header-left {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0%;
+}
+
+.boton-header {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 600;
+}   
+
+.boton-header:hover {
+    padding-top: 2px;
+}
+
+.sesion {
+    padding: 8px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.sesion:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 1s;
+}
+
+.header-right {
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    border: none;
+    float: right;
+}
+
+.header-left:hover {
+
+    padding-top: 2px;
+} 
+
+.container-fluid1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: grey;
+}
+
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.boton1 {
+    padding: 8px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.boton1:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 0.25s;
+}
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    border: none;
+}
+
+.iconos-footer {
+    font-size: 8px;
+    border: none;
+    background-color: black;
+}
+

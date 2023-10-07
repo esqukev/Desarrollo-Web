@@ -1,0 +1,123 @@
+.header {
+    padding: 40px;
+    background-color:black;
+}
+
+.header-left {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0%;
+}
+
+.boton-header {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 600;
+}   
+
+.boton-header:hover {
+    padding-top: 2px;
+}
+
+.sesion {
+    padding: 8px;
+    background-color: rgb(178, 100, 227);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.sesion:hover {
+    background-color: rgb(241, 122, 209);
+    transition: 1s;
+}
+
+.header-right {
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    border: none;
+    float: right;
+}
+
+.header-left:hover {
+
+    padding-top: 2px;
+} 
+
+.banner {
+    background-image: url("../imagenes/coffee.jpg");
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #92837248;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.379);
+}
+
+.container-fluid1 {
+    padding-top: 250px;
+    padding-bottom: 300px;
+}
+
+.container-fluid2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.fondo1 {
+    background-color: rgba(128, 128, 128, 0.752);
+    background: cover;
+}
+
+.titulo {
+    color: white;
+    font-size: bolder;
+    font-size: 40px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.474);
+}
+
+.titulo2 {
+    color: white;
+    font-size: bold;
+    font-size: 25px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.474);
+}
+
+.boton {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    align-items: center;
+}
+
+.fila {
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    border: none;
+}
+
+.iconos-footer {
+    font-size: 8px;
+    border: none;
+    background-color: black;
+}
+
