@@ -1,0 +1,174 @@
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.capa {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.promo {
+    position: relative;
+    z-index: 2;
+    
+}
+
+.header {
+    padding: 45px;
+    background-color: rgba(147, 191, 123, 0.133);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(147, 191, 123, 0.133);
+}
+
+
+.header-decor {
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+    background-color: #00000000;
+    color: rgb(24, 23, 23);
+    flex-shrink: 0%;
+    border: none;
+    margin-right: 30px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.own {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 170px;
+    text-shadow: 2px 2px 2px rgb(49, 45, 45);
+}
+
+.fondo1 {
+    padding: 200px;
+    background-color: white;
+}
+
+.fondo2 {
+    padding: 150px;
+    background-color: white;
+}
+
+.fondo3 {
+    padding: 130px;
+    background-color: white;
+}
+
+
+
+.beneficios {
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 170px;
+}
+
+.banner1 {
+    background-image: url("../imagenes/banner1.jpg");
+    background-image: cover;
+    background-image: center;
+    background-color: rgba(70, 64, 49, 0.644);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.251);
+}
+
+.container-fluid1 {
+    padding-top: 150px;
+    padding-bottom: 150px;  
+}
+
+.conoce {
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+}
+
+.titulos {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.linea {
+    margin: 5rem 0;
+}
+
+.prueba {
+    font-size: 33px;
+    color: rgb(82, 80, 37);
+    font-weight: bolder;
+}
+
+.vela{
+    border-radius: 45px;
+}
+
+.nuestros {
+    font-size: 25px;
+    color: rgb(124, 124, 55);
+    font-weight: bold;
+}
+
+.suscribete {
+    font-size: 20px;
+    color: rgb(124, 124, 55);
+}
+
+.suscr {
+    background-color: rgb(179, 178, 152);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.correos {
+    border-radius: 10px;
+    color: rgb(54, 52, 52);
+}
+
+.iconos {
+    width: 100px;
+    border: none;
+    background: none;
+}
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.container-botonws {
+    /*color de fondo imagen*/
+    background-color: #e4e4e4;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
